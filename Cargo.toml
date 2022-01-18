@@ -1,0 +1,16 @@
+[package]
+authors = ["bigyue <xu@bigyue.cn>"]
+description = "a simple program to create, build and run a website"
+edition = "2021"
+name = "bigyuecn"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.4.4"
+clap = {version = "3.0.8", features = ["derive"]}
+tokio = {version = "1.15.0", features = ["full"]}
+tower-http = {version = "0.2.0", features = ["fs", "trace"]}
+tracing = "0.1.29"
+tracing-subscriber = {version = "0.3.6", features = ["env-filter"]}

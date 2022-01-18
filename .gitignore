@@ -1,0 +1,5 @@
+/target
+/malina/node_modules/
+/malina/package-lock.json
+/malina/public/
+/static/bundle.*
